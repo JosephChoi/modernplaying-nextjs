@@ -9,6 +9,39 @@ export const metadata: Metadata = {
   title: 'MODERN PLAYING | Movement as Play',
   description:
     '모던플레잉은 현대인의 굳은 몸과 눌린 감정을 놀이처럼 움직이며 풀어내는 공간입니다.',
+  keywords: ['모던플레잉', '액티브 스트레칭', '현대무용', '마포구', '스트레칭', '다이어트', '헬스', '요가'],
+  authors: [{ name: 'MODERN PLAYING' }],
+  openGraph: {
+    title: 'MODERN PLAYING | Movement as Play',
+    description: '모던플레잉은 현대인의 굳은 몸과 눌린 감정을 놀이처럼 움직이며 풀어내는 공간입니다.',
+    url: 'https://modmodernplaying.vercel.app',
+    siteName: 'MODERN PLAYING',
+    images: [
+      {
+        url: 'https://modmodernplaying.vercel.app/images/stretching-main.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'MODERN PLAYING - Movement as Play',
+      },
+    ],
+    locale: 'ko_KR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'MODERN PLAYING | Movement as Play',
+    description: '모던플레잉은 현대인의 굳은 몸과 눌린 감정을 놀이처럼 움직이며 풀어내는 공간입니다.',
+    images: ['https://modmodernplaying.vercel.app/images/stretching-main.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+  },
 };
 
 export default function RootLayout({
