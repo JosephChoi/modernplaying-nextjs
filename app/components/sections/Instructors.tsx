@@ -89,12 +89,10 @@ export default function Instructors() {
                 <span className="text-sm font-normal text-stone-500">{instructor.title}</span>
               </h3>
               <div className="w-8 h-0.5 bg-stone-200 mx-auto my-4"></div>
-              <ul className={`text-left text-xs text-stone-600 space-y-2 break-keep leading-relaxed ${
-                instructor.isRepresentative ? 'px-2' : 'px-0'
-              }`} style={!instructor.isRepresentative ? { 
+              <ul className="text-left text-xs text-stone-600 space-y-2 break-keep leading-relaxed px-0" style={{ 
                 maxWidth: '192px', 
                 margin: '0 auto' 
-              } : undefined}>
+              }}>
                 {instructor.qualifications.map((qual, idx) => (
                   <li key={idx} className="flex items-start">
                     <i className="fas fa-check text-stone-400 mt-0.5 mr-2 flex-shrink-0"></i>
