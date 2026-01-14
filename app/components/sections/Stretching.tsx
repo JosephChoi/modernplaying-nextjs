@@ -96,6 +96,11 @@ export default function Stretching() {
         </div>
 
         {/* Membership Cards */}
+        {/*
+          [임시 주석 처리: 액티브 스트레칭 Membership Plans 카드 섹션]
+          1개월, 3개월(Best), 6개월, 12개월 정규 멤버십 가격 카드들입니다.
+        */}
+        {/*
         <div id="price" className="pt-10 border-t border-royalPurple/10">
           <h3 className="text-3xl font-bold text-center mb-10 tracking-tight">
             Membership Plans
@@ -143,8 +148,8 @@ export default function Stretching() {
             />
           </div>
         </div>
+        */}
       </div>
     </section>
   );
 }
-

@@ -13,7 +13,7 @@ export default function Benefits() {
             <span className="w-2 h-2 rounded-full bg-brandRed"></span>
             <span className="text-brandRed text-xs font-bold tracking-widest uppercase">
               선착순 100명 Only
-          </span>
+            </span>
           </div>
           <h2 className="text-4xl md:text-6xl font-bold mb-4 text-white drop-shadow-lg tracking-tight">
             오픈 멤버 한정 혜택
@@ -174,7 +174,12 @@ export default function Benefits() {
           </div>
         </div>
 
-        {/* Price Breakdown Simulation */}
+        {/* 
+          [임시 주석 처리: 오픈 멤버십 전용 영수증 형태의 가격표 시뮬레이션 영역]
+          나중에 정규 멤버십 가격 안내가 필요할 때 이 주석을 해제하여 사용하세요.
+          구성: 1. 스트레칭 영수증, 2. 현대무용 영수증, 3. 시너지(무용+스트레칭) 영수증
+        */}
+        {/*
         <div className="bg-white/5 border border-white/10 rounded-[2.5rem] p-8 md:p-12 max-w-6xl mx-auto backdrop-blur-sm mt-20">
           <div className="text-center mb-10">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
@@ -186,7 +191,6 @@ export default function Benefits() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
-          {/* Receipt 1: Stretching */}
           <div className="bg-white text-stone-800 rounded-2xl shadow-2xl overflow-hidden relative transform hover:-translate-y-2 transition duration-300 group">
             <div className="h-2 bg-royalPurple"></div>
             <div className="p-6">
@@ -233,7 +237,6 @@ export default function Benefits() {
             </div>
           </div>
 
-          {/* Receipt 2: Dance */}
           <div className="bg-white text-stone-800 rounded-2xl shadow-2xl overflow-hidden relative transform hover:-translate-y-2 transition duration-300 group">
             <div className="h-2 bg-mutedSage"></div>
             <div className="p-6">
@@ -280,7 +283,6 @@ export default function Benefits() {
             </div>
           </div>
 
-          {/* Receipt 3: Synergy */}
           <div className="bg-white text-stone-800 rounded-2xl shadow-2xl overflow-hidden relative transform md:scale-105 z-10 border-4 border-classicGold/30">
             <div className="absolute top-0 right-0 bg-brandRed text-white text-[10px] font-bold px-3 py-1 rounded-bl-lg shadow-sm">
               추천
@@ -310,7 +312,7 @@ export default function Benefits() {
                 </div>
                 <div className="flex justify-between text-stone-600 bg-stone-100 px-2 py-1 rounded -mx-2">
                   <span>💰 통합 체험 페이백</span>
-                    <span>- 44,900원</span>
+                  <span>- 44,900원</span>
                 </div>
               </div>
               <div className="border-t-2 border-stone-900 pt-4 mt-2">
@@ -333,6 +335,7 @@ export default function Benefits() {
             </div>
           </div>
         </div>
+        */}
 
         <div className="text-center mt-12">
           <p className="text-stone-600 text-xs font-light tracking-wide">

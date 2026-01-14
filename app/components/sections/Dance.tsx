@@ -99,6 +99,11 @@ export default function Dance() {
         </div>
 
         {/* Dance Membership Cards */}
+        {/*
+          [임시 주석 처리: 현대무용 Membership Plans 카드 섹션]
+          1개월, 3개월(Best), 6개월, 12개월 정규 멤버십 가격 카드들입니다.
+        */}
+        {/*
         <div className="mb-12 pt-10 border-t border-mutedSage/10">
           <h3 className="text-3xl font-bold text-center mb-10 tracking-tight">
             Membership Plans
@@ -146,8 +151,8 @@ export default function Dance() {
             />
           </div>
         </div>
+        */}
       </div>
     </section>
   );
 }
-

@@ -40,8 +40,13 @@ export default function Synergy() {
         </div>
 
         {/* Pricing Cards */}
+        {/*
+          [임시 주석 처리: 시너지 플랜(통합 멤버십) Pricing Cards 영역]
+          현대무용 수강 시 스트레칭을 추가하는 Add-on 가격 카드들입니다.
+          구성: 1개월, 3개월(Best), 6개월, 12개월 옵션
+        */}
+        {/*
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch pt-8">
-          {/* Option 1: Starter */}
           <div className="relative bg-stone-800/50 backdrop-blur border-x border-b border-stone-700 border-t-[6px] border-t-stone-500 rounded-3xl p-6 hover:bg-stone-800 transition duration-300 flex flex-col h-full group hover:border-stone-500">
             <div className="mb-4">
               <span className="text-stone-400 text-xs font-bold tracking-widest uppercase">입문</span>
@@ -61,7 +66,6 @@ export default function Synergy() {
             </div>
           </div>
 
-          {/* Option 2: BEST VALUE */}
           <div className="relative bg-stone-800/80 backdrop-blur border-2 border-royalPurple rounded-3xl p-6 transition duration-300 flex flex-col h-full shadow-lg shadow-royalPurple/20 transform md:-translate-y-4">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-royalPurple text-white text-[10px] font-bold px-4 py-1.5 rounded-full shadow-md whitespace-nowrap uppercase tracking-wide border border-white/20">
               Best Choice
@@ -86,7 +90,6 @@ export default function Synergy() {
             </div>
           </div>
 
-          {/* Option 3: Premium */}
           <div className="relative bg-stone-800/50 backdrop-blur border-x border-b border-stone-700 border-t-[6px] border-t-indigo-400 rounded-3xl p-6 hover:bg-stone-800 transition duration-300 flex flex-col h-full group hover:border-stone-500">
             <div className="absolute top-0 right-0 bg-indigo-500 text-white text-xs font-bold px-3 py-1.5 rounded-bl-xl rounded-tr-lg z-20">
               18% SAVE
@@ -108,7 +111,6 @@ export default function Synergy() {
             </div>
           </div>
 
-          {/* Option 4: Master */}
           <div className="relative bg-stone-800/50 backdrop-blur border-x border-b border-stone-700 border-t-[6px] border-t-classicGold rounded-3xl p-6 hover:bg-stone-800 transition duration-300 flex flex-col h-full group hover:border-stone-500">
             <div className="absolute top-0 right-0 bg-classicGold text-stone-900 text-xs font-bold px-3 py-1.5 rounded-bl-xl rounded-tr-lg z-20">
               25% SAVE
@@ -130,6 +132,7 @@ export default function Synergy() {
             </div>
           </div>
         </div>
+        */}
 
         <div className="text-center mt-12">
           <p className="text-stone-500 text-sm font-light">
@@ -141,4 +144,3 @@ export default function Synergy() {
     </section>
   );
 }
-
